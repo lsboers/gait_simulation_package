@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenSimDocument Version="30000">
+   <InverseKinematicsTool name="normalP08">
+      <model_file>../skeletal_models/staticP08_fullbody7_SCALED.osim</model_file>
+      <IKTaskSet file="../inverse_kinematics/normalP08_taskSet.xml"/>
+      <marker_file>../experimental_data/normalP08.trc</marker_file>
+      <coordinate_file>Unassigned</coordinate_file>
+      <time_range>1.51 2.45</time_range>
+      <report_errors>true</report_errors>
+      <output_motion_file>normalP08_ik.mot</output_motion_file>
+      <constraint_weight>Inf</constraint_weight>
+      <accuracy>1e-05</accuracy>
+   </InverseKinematicsTool>
+</OpenSimDocument>

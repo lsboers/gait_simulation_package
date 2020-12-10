@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenSimDocument Version="30000">
+   <AnalyzeTool name="normalP092_Fminco">
+      <model_file>../skeletal_models/normalP092_RAD.osim</model_file>
+      <replace_force_set>false</replace_force_set>
+      <force_set_files>normalP092_RRA_Actuators.xml</force_set_files>
+      <results_directory>./DCResults</results_directory>
+      <output_precision>8</output_precision>
+      <initial_time>1.259</initial_time>
+      <final_time>2.039</final_time>
+      <solve_for_equilibrium_for_auxiliary_states>false</solve_for_equilibrium_for_auxiliary_states>
+      <AnalysisSet>
+         <objects>
+            <Actuation name="Actuation">
+               <on>true</on>
+               <step_interval>1</step_interval>
+               <in_degrees>true</in_degrees>
+            </Actuation>
+            <BodyKinematics name="BodyKinematics">
+               <on>true</on>
+               <step_interval>1</step_interval>
+               <in_degrees>true</in_degrees>
+            </BodyKinematics>
+         </objects>
+      </AnalysisSet>
+      <states_file>FminconOptStates_80Nodes_6960DVs_normalP092_RAD.sto</states_file>
+      <ControllerSet>
+         <objects name="Controllers">
+            <ControlSetController>
+               <enable_controller>true</enable_controller>
+               <controls_file>FminconOptContrl_80Nodes_6960DVs_normalP092_RAD.sto</controls_file>
+            </ControlSetController>
+         </objects>
+      </ControllerSet>
+      <use_verbose_printing>false</use_verbose_printing>
+   </AnalyzeTool>
+</OpenSimDocument>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenSimDocument Version="30000">
+   <InverseKinematicsTool name="staticP12">
+      <model_file>../skeletal_models/staticP12_fullbody7_SCALED.osim</model_file>
+      <IKTaskSet file="../inverse_kinematics/staticP12_taskSet.xml"/>
+      <marker_file>../experimental_data/staticP12.trc</marker_file>
+      <coordinate_file>Unassigned</coordinate_file>
+      <time_range>0.01 1</time_range>
+      <report_errors>true</report_errors>
+      <output_motion_file>staticP12_ik.mot</output_motion_file>
+      <constraint_weight>Inf</constraint_weight>
+      <accuracy>1e-05</accuracy>
+   </InverseKinematicsTool>
+</OpenSimDocument>

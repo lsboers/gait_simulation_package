@@ -1,0 +1,21 @@
+Constructing tool from setup file normalP092_Setup_Analysis.xml.
+
+AbstractTool normalP092_Fminco loading model '../skeletal_models/normalP092_RAD.osim'
+Loaded model staticP092_SCALED from file ../skeletal_models/normalP092_RAD.osim
+Adding force object set from normalP092_RRA_Actuators.xml
+Storage: file=FminconOptContrl_80Nodes_6960DVs_normalP092_RAD.sto (nr=80 nc=26)
+-----------------------------------------------------------------------
+Loaded library
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+
+No external loads will be applied (external loads file not specified).
+Storage: file=FminconOptContrl_80Nodes_6960DVs_normalP092_RAD.sto (nr=80 nc=26)
+
+Loading states from file FminconOptStates_80Nodes_6960DVs_normalP092_RAD.sto.
+Storage: file=FminconOptStates_80Nodes_6960DVs_normalP092_RAD.sto (nr=80 nc=75)
+Found 80 state vectors with time stamps ranging from 1.259 to 2.039.
+Executing the analyses from 1.259 to 2.039...
+Printing results of investigation normalP092_Fminco to ./DCResults.
+Analyze compute time = 189ms
+

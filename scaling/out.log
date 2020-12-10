@@ -1,0 +1,17 @@
+reading object from file [staticP122_taskSet.xml] cwd =C:\Users\lsboe\Documents\gait_simulation_package\scaling
+Processing subject staticP122_SCALED
+
+Step 1: Loading generic model
+Loaded model staticP122_SCALED from file ../skeletal_models/staticP122_fullbody7_SCALED.osim
+
+Step 2: Scaling generic model
+Wrote model file Unassigned from model staticP122_SCALED
+Wrote scale file Unassigned for model staticP122_SCALED
+
+Step 3: Placing markers on model
+Loaded marker file ../experimental_data/staticP122.trc (53 markers, 100 frames)
+Averaged frames from time 0.5 to 1 in ../experimental_data/staticP122.trc (frames 50 to 100)
+Deleted 0 unused markers from model staticP122_SCALED
+Frame at (t=0):	total squared error = 0.0120936, marker error: RMS=0.0194403, max=0.045409 (RHLE)
+Moved markers in model staticP122_SCALED to match locations in marker file ../experimental_data/staticP122.trc
+Wrote model file ../skeletal_models/staticP122_fullbody7_SCALED.osim from model staticP122_SCALED

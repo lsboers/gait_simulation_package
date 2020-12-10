@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenSimDocument Version="30000">
+   <ScaleTool name="staticP032_SCALED">
+      <mass>72</mass>
+      <notes>Unassigned</notes>
+      <GenericModelMaker name="">
+         <model_file>../skeletal_models/fullbody7.osim</model_file>
+         <marker_set_file>staticP032_markerSet.xml</marker_set_file>
+      </GenericModelMaker>
+      <ModelScaler name="">
+         <apply>true</apply>
+         <scaling_order>measurements manualScale</scaling_order>
+         <MeasurementSet file="staticP032_measurementSet.xml"/>
+         <marker_file>../experimental_data/staticP032.trc</marker_file>
+         <time_range>0.01 1</time_range>
+         <preserve_mass_distribution>true</preserve_mass_distribution>
+         <output_scale_file>staticP032_ScaleSet_Applied.xml</output_scale_file>
+      </ModelScaler>
+      <MarkerPlacer name="">
+         <apply>true</apply>
+         <optimizer_algorithm>ipopt</optimizer_algorithm>
+         <IKTaskSet file="staticP032_taskSet.xml"/>
+         <marker_file>../experimental_data/staticP032.trc</marker_file>
+         <coordinate_file>Unassigned</coordinate_file>
+         <time_range>0.5 1</time_range>
+         <output_model_file>../skeletal_models/staticP032_fullbody7_SCALED.osim</output_model_file>
+         <output_motion_file>staticP032_static_output.mot</output_motion_file>
+      </MarkerPlacer>
+   </ScaleTool>
+</OpenSimDocument>

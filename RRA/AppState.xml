@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_80" class="java.beans.XMLDecoder">
+ <object class="org.opensim.utils.ApplicationState" id="ApplicationState0">
+  <void property="stateObjects">
+   <void method="put">
+    <string>MotionsDB</string>
+    <object class="org.opensim.view.motions.MotionsDBDescriptor"/>
+   </void>
+   <void method="put">
+    <string>ViewDB</string>
+    <object class="org.opensim.view.pub.ViewDBDescriptor" id="ViewDBDescriptor0">
+     <void property="cameraAttributes">
+      <void method="add">
+       <array class="double" length="13">
+        <void index="0">
+         <double>2.3678476636549513</double>
+        </void>
+        <void index="1">
+         <double>-5.695962837599042</double>
+        </void>
+        <void index="2">
+         <double>-6.871812928075379</double>
+        </void>
+        <void index="3">
+         <double>-0.04338574584875993</double>
+        </void>
+        <void index="4">
+         <double>-0.12197699180911292</double>
+        </void>
+        <void index="5">
+         <double>7.463235029980808E-10</double>
+        </void>
+        <void index="6">
+         <double>0.948483011485671</double>
+        </void>
+        <void index="7">
+         <double>0.30512603800719407</double>
+        </void>
+        <void index="8">
+         <double>0.08531165133265708</double>
+        </void>
+        <void index="9">
+         <double>0.26292258053306494</double>
+        </void>
+        <void index="10">
+         <double>-0.6077913223388468</double>
+        </void>
+        <void index="11">
+         <double>-0.749307296865198</double>
+        </void>
+        <void index="12">
+         <double>11.332262658324028</double>
+        </void>
+       </array>
+      </void>
+     </void>
+     <void property="viewNames">
+      <void method="add">
+       <string>View0</string>
+      </void>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>OpenSimDB</string>
+    <object class="org.opensim.view.pub.OpenSimDBDescriptor"/>
+   </void>
+   <void method="put">
+    <string>PluginsDB</string>
+    <object class="org.opensim.view.pub.PluginsDB"/>
+   </void>
+   <void method="put">
+    <string>CoordinateViewer</string>
+    <object class="org.opensim.coordinateviewer.CoordinateViewerDescriptor"/>
+   </void>
+  </void>
+ </object>
+</java>

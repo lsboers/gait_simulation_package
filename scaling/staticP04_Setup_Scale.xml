@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenSimDocument Version="30000">
+   <ScaleTool name="staticP04_SCALED">
+      <mass>81.9</mass>
+      <height>2</height>
+      <age>99</age>
+      <notes>Unassigned</notes>
+      <GenericModelMaker name="">
+         <model_file>../OsimModels/fullbody7.osim</model_file>
+         <marker_set_file>staticP04_markerSet.xml</marker_set_file>
+      </GenericModelMaker>
+      <ModelScaler name="">
+         <apply>true</apply>
+         <scaling_order>measurements manualScale</scaling_order>
+         <MeasurementSet file="staticP04_measurementSet.xml"/>
+         <marker_file>../ExpData/staticP04.trc</marker_file>
+         <time_range>0.01 1</time_range>
+         <preserve_mass_distribution>true</preserve_mass_distribution>
+         <output_scale_file>staticP04_ScaleSet_Applied.xml</output_scale_file>
+      </ModelScaler>
+      <MarkerPlacer name="">
+         <apply>true</apply>
+         <optimizer_algorithm>ipopt</optimizer_algorithm>
+         <IKTaskSet file="staticP04_taskSet.xml"/>
+         <marker_file>../ExpData/staticP04.trc</marker_file>
+         <coordinate_file>Unassigned</coordinate_file>
+         <time_range>0.5 1</time_range>
+         <output_model_file>../OsimModels/staticP04_fullbody7_SCALED.osim</output_model_file>
+         <output_motion_file>staticP04_static_output.mot</output_motion_file>
+      </MarkerPlacer>
+   </ScaleTool>
+</OpenSimDocument>

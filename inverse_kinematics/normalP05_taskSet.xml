@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TaskSet name="normalP05">
+   <objects>
+      <IKMarkerTask name="RM1D">
+         <apply>true</apply>
+         <weight>20</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="RM5D">
+         <apply>true</apply>
+         <weight>20</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="RM2B">
+         <apply>true</apply>
+         <weight>1</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="LM1D">
+         <apply>true</apply>
+         <weight>20</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="LM5D">
+         <apply>true</apply>
+         <weight>20</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="LM2B">
+         <apply>true</apply>
+         <weight>1</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="RCAL">
+         <apply>true</apply>
+         <weight>5</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="LCAL">
+         <apply>true</apply>
+         <weight>5</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="RLMAL">
+         <apply>true</apply>
+         <weight>5</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="LLMAL">
+         <apply>true</apply>
+         <weight>5</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="RFLE">
+         <apply>true</apply>
+         <weight>5</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="LFLE">
+         <apply>true</apply>
+         <weight>5</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="RHFIB">
+         <apply>true</apply>
+         <weight>1</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="LHFIB">
+         <apply>true</apply>
+         <weight>1</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="RSSH">
+         <apply>false</apply>
+         <weight>1</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="LSSH">
+         <apply>false</apply>
+         <weight>1</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="RTAD">
+         <apply>false</apply>
+         <weight>1</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="LTAD">
+         <apply>false</apply>
+         <weight>1</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="RTPP">
+         <apply>false</apply>
+         <weight>1</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="LTPP">
+         <apply>false</apply>
+         <weight>1</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="RPSIS">
+         <apply>true</apply>
+         <weight>5</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="LPSIS">
+         <apply>true</apply>
+         <weight>5</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="RASIS">
+         <apply>true</apply>
+         <weight>5</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="LASIS">
+         <apply>true</apply>
+         <weight>5</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="T10">
+         <apply>true</apply>
+         <weight>10</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="T2">
+         <apply>true</apply>
+         <weight>10</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="IJ">
+         <apply>true</apply>
+         <weight>4</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="SA">
+         <apply>true</apply>
+         <weight>4</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="RACR">
+         <apply>true</apply>
+         <weight>3</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="LACR">
+         <apply>true</apply>
+         <weight>3</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="RHLE">
+         <apply>true</apply>
+         <weight>1</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="LHLE">
+         <apply>true</apply>
+         <weight>1</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="RUSP">
+         <apply>true</apply>
+         <weight>1</weight>
+      </IKMarkerTask>
+      <IKMarkerTask name="LUSP">
+         <apply>true</apply>
+         <weight>1</weight>
+      </IKMarkerTask>
+   </objects>
+</TaskSet>

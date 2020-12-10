@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenSimDocument Version="30000">
+   <ExternalLoads name="externalloads">
+      <objects>
+         <ExternalForce name="Left_GRF">
+            <applied_to_body>calcn_l</applied_to_body>
+            <force_expressed_in_body>ground</force_expressed_in_body>
+            <point_expressed_in_body>ground</point_expressed_in_body>
+            <force_identifier>1_ground_force_v</force_identifier>
+            <point_identifier>1_ground_force_p</point_identifier>
+            <torque_identifier>1_ground_torque_</torque_identifier>
+         </ExternalForce>
+         <ExternalForce name="Right_GRF">
+            <applied_to_body>calcn_r</applied_to_body>
+            <force_expressed_in_body>ground</force_expressed_in_body>
+            <point_expressed_in_body>ground</point_expressed_in_body>
+            <force_identifier>2_ground_force_v</force_identifier>
+            <point_identifier>2_ground_force_p</point_identifier>
+            <torque_identifier>2_ground_torque_</torque_identifier>
+         </ExternalForce>
+      </objects>
+      <datafile>../experimental_data/normalP102_grf.mot</datafile>
+      <external_loads_model_kinematics_file>../inverse_kinematics/normalP102_ik.mot</external_loads_model_kinematics_file>
+   </ExternalLoads>
+</OpenSimDocument>

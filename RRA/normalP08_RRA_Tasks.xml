@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenSimDocument Version="30000">
+   <CMC_TaskSet name="rraTasks">
+      <defaults>
+         <CMC_Joint name="default">
+            <on>true</on>
+            <wrt_body>-1</wrt_body>
+            <express_body>-1</express_body>
+            <active>true false false</active>
+            <weight>1 1 1</weight>
+            <kp>100</kp>
+            <kv>20</kv>
+            <ka>1 1 1</ka>
+         </CMC_Joint>
+      </defaults>
+      <objects>
+         <CMC_Joint name="pelvis_tilt">
+            <coordinate>pelvis_tilt</coordinate>
+            <weight>25</weight>
+         </CMC_Joint>
+         <CMC_Joint name="pelvis_list">
+            <coordinate>pelvis_list</coordinate>
+            <weight>25</weight>
+         </CMC_Joint>
+         <CMC_Joint name="pelvis_rotation">
+            <coordinate>pelvis_rotation</coordinate>
+            <weight>25</weight>
+         </CMC_Joint>
+         <CMC_Joint name="pelvis_tx">
+            <coordinate>pelvis_tx</coordinate>
+            <weight>5</weight>
+         </CMC_Joint>
+         <CMC_Joint name="pelvis_ty">
+            <coordinate>pelvis_ty</coordinate>
+            <weight>5</weight>
+         </CMC_Joint>
+         <CMC_Joint name="pelvis_tz">
+            <coordinate>pelvis_tz</coordinate>
+            <weight>5</weight>
+         </CMC_Joint>
+         <CMC_Joint name="hip_flexion_r">
+            <coordinate>hip_flexion_r</coordinate>
+            <weight>15</weight>
+         </CMC_Joint>
+         <CMC_Joint name="hip_adduction_r">
+            <coordinate>hip_adduction_r</coordinate>
+            <weight>15</weight>
+         </CMC_Joint>
+         <CMC_Joint name="hip_rotation_r">
+            <coordinate>hip_rotation_r</coordinate>
+            <weight>15</weight>
+         </CMC_Joint>
+         <CMC_Joint name="knee_angle_r">
+            <coordinate>knee_angle_r</coordinate>
+            <weight>1</weight>
+         </CMC_Joint>
+         <CMC_Joint name="ankle_angle_r">
+            <coordinate>ankle_angle_r</coordinate>
+            <weight>15</weight>
+         </CMC_Joint>
+         <CMC_Joint name="subtalar_angle_r">
+            <coordinate>subtalar_angle_r</coordinate>
+            <weight>5</weight>
+         </CMC_Joint>
+         <CMC_Joint name="hip_flexion_l">
+            <coordinate>hip_flexion_l</coordinate>
+            <weight>15</weight>
+         </CMC_Joint>
+         <CMC_Joint name="hip_adduction_l">
+            <coordinate>hip_adduction_l</coordinate>
+            <weight>15</weight>
+         </CMC_Joint>
+         <CMC_Joint name="hip_rotation_l">
+            <coordinate>hip_rotation_l</coordinate>
+            <weight>15</weight>
+         </CMC_Joint>
+         <CMC_Joint name="knee_angle_l">
+            <coordinate>knee_angle_l</coordinate>
+            <weight>1</weight>
+         </CMC_Joint>
+         <CMC_Joint name="ankle_angle_l">
+            <coordinate>ankle_angle_l</coordinate>
+            <weight>15</weight>
+         </CMC_Joint>
+         <CMC_Joint name="subtalar_angle_l">
+            <coordinate>subtalar_angle_l</coordinate>
+            <weight>5</weight>
+         </CMC_Joint>
+         <CMC_Joint name="lumbar_extension">
+            <coordinate>lumbar_extension</coordinate>
+            <weight>5</weight>
+         </CMC_Joint>
+         <CMC_Joint name="lumbar_bending">
+            <coordinate>lumbar_bending</coordinate>
+            <weight>5</weight>
+         </CMC_Joint>
+         <CMC_Joint name="lumbar_rotation">
+            <coordinate>lumbar_rotation</coordinate>
+            <weight>5</weight>
+         </CMC_Joint>
+         <CMC_Joint name="arm_flex_r">
+            <coordinate>arm_flex_r</coordinate>
+            <weight>1</weight>
+         </CMC_Joint>
+         <CMC_Joint name="arm_add_r">
+            <coordinate>arm_add_r</coordinate>
+            <weight>1</weight>
+         </CMC_Joint>
+         <CMC_Joint name="arm_rot_r">
+            <coordinate>arm_rot_r</coordinate>
+            <weight>1</weight>
+         </CMC_Joint>
+         <CMC_Joint name="elbow_flex_r">
+            <coordinate>elbow_flex_r</coordinate>
+            <weight>1</weight>
+         </CMC_Joint>
+         <CMC_Joint name="pro_sup_r">
+            <coordinate>pro_sup_r</coordinate>
+            <weight>1</weight>
+         </CMC_Joint>
+         <CMC_Joint name="arm_flex_l">
+            <coordinate>arm_flex_l</coordinate>
+            <weight>1</weight>
+         </CMC_Joint>
+         <CMC_Joint name="arm_add_l">
+            <coordinate>arm_add_l</coordinate>
+            <weight>1</weight>
+         </CMC_Joint>
+         <CMC_Joint name="arm_rot_l">
+            <coordinate>arm_rot_l</coordinate>
+            <weight>1</weight>
+         </CMC_Joint>
+         <CMC_Joint name="elbow_flex_l">
+            <coordinate>elbow_flex_l</coordinate>
+            <weight>1</weight>
+         </CMC_Joint>
+         <CMC_Joint name="pro_sup_l">
+            <coordinate>pro_sup_l</coordinate>
+            <weight>1</weight>
+         </CMC_Joint>
+      </objects>
+   </CMC_TaskSet>
+</OpenSimDocument>

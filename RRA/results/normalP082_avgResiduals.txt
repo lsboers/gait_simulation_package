@@ -1,0 +1,8 @@
+Average Residuals:
+
+FX average = 7.58313
+FY average = -2.25147
+FZ average = -0.316501
+MX average = -0.610846
+MY average = 1.16259
+MZ average = 0.245524

@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MeasurementSet name="staticP102">
+   <objects>
+      <Measurement name="pelvis21Y">
+         <apply>true</apply>
+         <MarkerPairSet name="">
+            <objects>
+               <MarkerPair name="">
+                  <markers>SA LASIS</markers>
+               </MarkerPair>
+               <MarkerPair name="">
+                  <markers>SA RASIS</markers>
+               </MarkerPair>
+            </objects>
+         </MarkerPairSet>
+         <BodyScaleSet name="">
+            <objects>
+               <BodyScale name="pelvis">
+                  <axes>Y</axes>
+               </BodyScale>
+            </objects>
+         </BodyScaleSet>
+      </Measurement>
+      <Measurement name="pelvis21X">
+         <apply>true</apply>
+         <MarkerPairSet name="">
+            <objects>
+               <MarkerPair name="">
+                  <markers>LASIS LPSIS</markers>
+               </MarkerPair>
+               <MarkerPair name="">
+                  <markers>RASIS RPSIS</markers>
+               </MarkerPair>
+            </objects>
+         </MarkerPairSet>
+         <BodyScaleSet name="">
+            <objects>
+               <BodyScale name="pelvis">
+                  <axes>X</axes>
+               </BodyScale>
+            </objects>
+         </BodyScaleSet>
+      </Measurement>
+      <Measurement name="pelvis11Z">
+         <apply>true</apply>
+         <MarkerPairSet name="">
+            <objects>
+               <MarkerPair name="">
+                  <markers>LASIS RASIS</markers>
+               </MarkerPair>
+            </objects>
+         </MarkerPairSet>
+         <BodyScaleSet name="">
+            <objects>
+               <BodyScale name="pelvis">
+                  <axes>Z</axes>
+               </BodyScale>
+            </objects>
+         </BodyScaleSet>
+      </Measurement>
+      <Measurement name="l_thigh12Y">
+         <apply>true</apply>
+         <MarkerPairSet name="">
+            <objects>
+               <MarkerPair name="">
+                  <markers>LASIS LFLE</markers>
+               </MarkerPair>
+            </objects>
+         </MarkerPairSet>
+         <BodyScaleSet name="">
+            <objects>
+               <BodyScale name="femur_l">
+                  <axes>Y</axes>
+               </BodyScale>
+               <BodyScale name="patella_l">
+                  <axes>Y</axes>
+               </BodyScale>
+            </objects>
+         </BodyScaleSet>
+      </Measurement>
+      <Measurement name="r_thigh12Y">
+         <apply>true</apply>
+         <MarkerPairSet name="">
+            <objects>
+               <MarkerPair name="">
+                  <markers>RASIS RFLE</markers>
+               </MarkerPair>
+            </objects>
+         </MarkerPairSet>
+         <BodyScaleSet name="">
+            <objects>
+               <BodyScale name="femur_r">
+                  <axes>Y</axes>
+               </BodyScale>
+               <BodyScale name="patella_r">
+                  <axes>Y</axes>
+               </BodyScale>
+            </objects>
+         </BodyScaleSet>
+      </Measurement>
+      <Measurement name="l_thigh12XZ">
+         <apply>true</apply>
+         <MarkerPairSet name="">
+            <objects>
+               <MarkerPair name="">
+                  <markers>LFLE LFME</markers>
+               </MarkerPair>
+            </objects>
+         </MarkerPairSet>
+         <BodyScaleSet name="">
+            <objects>
+               <BodyScale name="femur_l">
+                  <axes>X Z</axes>
+               </BodyScale>
+               <BodyScale name="patella_l">
+                  <axes>X Z</axes>
+               </BodyScale>
+            </objects>
+         </BodyScaleSet>
+      </Measurement>
+      <Measurement name="r_thigh12XZ">
+         <apply>true</apply>
+         <MarkerPairSet name="">
+            <objects>
+               <MarkerPair name="">
+                  <markers>RFLE RFME</markers>
+               </MarkerPair>
+            </objects>
+         </MarkerPairSet>
+         <BodyScaleSet name="">
+            <objects>
+               <BodyScale name="femur_r">
+                  <axes>X Z</axes>
+               </BodyScale>
+               <BodyScale name="patella_r">
+                  <axes>X Z</axes>
+               </BodyScale>
+            </objects>
+         </BodyScaleSet>
+      </Measurement>
+      <Measurement name="l_shanks11Y">
+         <apply>true</apply>
+         <MarkerPairSet name="">
+            <objects>
+               <MarkerPair name="">
+                  <markers>LFLE LLMAL</markers>
+               </MarkerPair>
+            </objects>
+         </MarkerPairSet>
+         <BodyScaleSet name="">
+            <objects>
+               <BodyScale name="tibia_l">
+                  <axes>Y</axes>
+               </BodyScale>
+            </objects>
+         </BodyScaleSet>
+      </Measurement>
+      <Measurement name="r_shanks11Y">
+         <apply>true</apply>
+         <MarkerPairSet name="">
+            <objects>
+               <MarkerPair name="">
+                  <markers>RFLE RLMAL</markers>
+               </MarkerPair>
+            </objects>
+         </MarkerPairSet>
+         <BodyScaleSet name="">
+            <objects>
+               <BodyScale name="tibia_r">
+                  <axes>Y</axes>
+               </BodyScale>
+            </objects>
+         </BodyScaleSet>
+      </Measurement>
+      <Measurement name="l_shanks11Z">
+         <apply>true</apply>
+         <MarkerPairSet name="">
+            <objects>
+               <MarkerPair name="">
+                  <markers>LMMAL LLMAL</markers>
+               </MarkerPair>
+            </objects>
+         </MarkerPairSet>
+         <BodyScaleSet name="">
+            <objects>
+               <BodyScale name="tibia_l">
+                  <axes>Z</axes>
+               </BodyScale>
+            </objects>
+         </BodyScaleSet>
+      </Measurement>
+      <Measurement name="r_shanks11Z">
+         <apply>true</apply>
+         <MarkerPairSet name="">
+            <objects>
+               <MarkerPair name="">
+                  <markers>RMMAL RLMAL</markers>
+               </MarkerPair>
+            </objects>
+         </MarkerPairSet>
+         <BodyScaleSet name="">
+            <objects>
+               <BodyScale name="tibia_r">
+                  <axes>Z</axes>
+               </BodyScale>
+            </objects>
+         </BodyScaleSet>
+      </Measurement>
+      <Measurement name="l_foot12Z">
+         <apply>true</apply>
+         <MarkerPairSet name="">
+            <objects>
+               <MarkerPair name="">
+                  <markers>LM1D LM5D</markers>
+               </MarkerPair>
+            </objects>
+         </MarkerPairSet>
+         <BodyScaleSet name="">
+            <objects>
+               <BodyScale name="calcn_l">
+                  <axes>Z</axes>
+               </BodyScale>
+               <BodyScale name="toes_l">
+                  <axes>Z</axes>
+               </BodyScale>
+            </objects>
+         </BodyScaleSet>
+      </Measurement>
+      <Measurement name="r_foot12Z">
+         <apply>true</apply>
+         <MarkerPairSet name="">
+            <objects>
+               <MarkerPair name="">
+                  <markers>RM1D RM5D</markers>
+               </MarkerPair>
+            </objects>
+         </MarkerPairSet>
+         <BodyScaleSet name="">
+            <objects>
+               <BodyScale name="calcn_r">
+                  <axes>Z</axes>
+               </BodyScale>
+               <BodyScale name="toes_r">
+                  <axes>Z</axes>
+               </BodyScale>
+            </objects>
+         </BodyScaleSet>
+      </Measurement>
+      <Measurement name="l_foot21X">
+         <apply>true</apply>
+         <MarkerPairSet name="">
+            <objects>
+               <MarkerPair name="">
+                  <markers>LCAL LM1D</markers>
+               </MarkerPair>
+               <MarkerPair name="">
+                  <markers>LCAL LM5D</markers>
+               </MarkerPair>
+            </objects>
+         </MarkerPairSet>
+         <BodyScaleSet name="">
+            <objects>
+               <BodyScale name="calcn_l">
+                  <axes>X</axes>
+               </BodyScale>
+            </objects>
+         </BodyScaleSet>
+      </Measurement>
+      <Measurement name="r_foot21X">
+         <apply>true</apply>
+         <MarkerPairSet name="">
+            <objects>
+               <MarkerPair name="">
+                  <markers>RCAL RM1D</markers>
+               </MarkerPair>
+               <MarkerPair name="">
+                  <markers>RCAL RM5D</markers>
+               </MarkerPair>
+            </objects>
+         </MarkerPairSet>
+         <BodyScaleSet name="">
+            <objects>
+               <BodyScale name="calcn_r">
+                  <axes>X</axes>
+               </BodyScale>
+            </objects>
+         </BodyScaleSet>
+      </Measurement>
+      <Measurement name="torso21Y">
+         <apply>true</apply>
+         <MarkerPairSet name="">
+            <objects>
+               <MarkerPair name="">
+                  <markers>SA LASIS</markers>
+               </MarkerPair>
+               <MarkerPair name="">
+                  <markers>SA RASIS</markers>
+               </MarkerPair>
+            </objects>
+         </MarkerPairSet>
+         <BodyScaleSet name="">
+            <objects>
+               <BodyScale name="torso">
+                  <axes>Y</axes>
+               </BodyScale>
+            </objects>
+         </BodyScaleSet>
+      </Measurement>
+      <Measurement name="torso11X">
+         <apply>true</apply>
+         <MarkerPairSet name="">
+            <objects>
+               <MarkerPair name="">
+                  <markers>T2 IJ</markers>
+               </MarkerPair>
+            </objects>
+         </MarkerPairSet>
+         <BodyScaleSet name="">
+            <objects>
+               <BodyScale name="torso">
+                  <axes>X</axes>
+               </BodyScale>
+            </objects>
+         </BodyScaleSet>
+      </Measurement>
+      <Measurement name="torso11Z">
+         <apply>true</apply>
+         <MarkerPairSet name="">
+            <objects>
+               <MarkerPair name="">
+                  <markers>LACR RACR</markers>
+               </MarkerPair>
+            </objects>
+         </MarkerPairSet>
+         <BodyScaleSet name="">
+            <objects>
+               <BodyScale name="torso">
+                  <axes>Z</axes>
+               </BodyScale>
+            </objects>
+         </BodyScaleSet>
+      </Measurement>
+      <Measurement name="l_humerus11Y">
+         <apply>true</apply>
+         <MarkerPairSet name="">
+            <objects>
+               <MarkerPair name="">
+                  <markers>LACR LHLE</markers>
+               </MarkerPair>
+            </objects>
+         </MarkerPairSet>
+         <BodyScaleSet name="">
+            <objects>
+               <BodyScale name="humerus_l">
+                  <axes>Y</axes>
+               </BodyScale>
+            </objects>
+         </BodyScaleSet>
+      </Measurement>
+      <Measurement name="r_humerus11Y">
+         <apply>true</apply>
+         <MarkerPairSet name="">
+            <objects>
+               <MarkerPair name="">
+                  <markers>RACR RHLE</markers>
+               </MarkerPair>
+            </objects>
+         </MarkerPairSet>
+         <BodyScaleSet name="">
+            <objects>
+               <BodyScale name="humerus_r">
+                  <axes>Y</axes>
+               </BodyScale>
+            </objects>
+         </BodyScaleSet>
+      </Measurement>
+      <Measurement name="l_farm13Y">
+         <apply>true</apply>
+         <MarkerPairSet name="">
+            <objects>
+               <MarkerPair name="">
+                  <markers>LHLE LUSP</markers>
+               </MarkerPair>
+            </objects>
+         </MarkerPairSet>
+         <BodyScaleSet name="">
+            <objects>
+               <BodyScale name="radius_l">
+                  <axes>Y</axes>
+               </BodyScale>
+               <BodyScale name="ulna_l">
+                  <axes>Y</axes>
+               </BodyScale>
+               <BodyScale name="hand_l">
+                  <axes>Y</axes>
+               </BodyScale>
+            </objects>
+         </BodyScaleSet>
+      </Measurement>
+      <Measurement name="r_farm13Y">
+         <apply>true</apply>
+         <MarkerPairSet name="">
+            <objects>
+               <MarkerPair name="">
+                  <markers>RHLE RUSP</markers>
+               </MarkerPair>
+            </objects>
+         </MarkerPairSet>
+         <BodyScaleSet name="">
+            <objects>
+               <BodyScale name="radius_r">
+                  <axes>Y</axes>
+               </BodyScale>
+               <BodyScale name="ulna_r">
+                  <axes>Y</axes>
+               </BodyScale>
+               <BodyScale name="hand_r">
+                  <axes>Y</axes>
+               </BodyScale>
+            </objects>
+         </BodyScaleSet>
+      </Measurement>
+   </objects>
+</MeasurementSet>

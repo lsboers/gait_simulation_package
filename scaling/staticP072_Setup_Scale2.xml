@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenSimDocument Version="30000">
+   <ScaleTool name="staticP072_SCALED">
+      <mass>0</mass>
+      <height>-1</height>
+      <age>-1</age>
+      <notes>Unassigned</notes>
+      <GenericModelMaker name="">
+         <model_file>../skeletal_models/staticP072_fullbody7_SCALED.osim</model_file>
+         <marker_set_file>Unassigned</marker_set_file>
+      </GenericModelMaker>
+      <ModelScaler name="">
+         <apply>true</apply>
+         <marker_file>Unassigned</marker_file>
+         <time_range>.1 .2</time_range>
+         <preserve_mass_distribution>false</preserve_mass_distribution>
+         <output_model_file>Unassigned</output_model_file>
+         <output_scale_file>Unassigned</output_scale_file>
+      </ModelScaler>
+      <MarkerPlacer name="">
+         <apply>true</apply>
+         <IKTaskSet file="staticP072_taskSet.xml"/>
+         <marker_file>../experimental_data/staticP072.trc</marker_file>
+         <coordinate_file>Unassigned</coordinate_file>
+         <time_range>0.5 1</time_range>
+         <output_model_file>../skeletal_models/staticP072_fullbody7_SCALED.osim</output_model_file>
+         <output_motion_file>staticP072_static_output.mot</output_motion_file>
+      </MarkerPlacer>
+   </ScaleTool>
+</OpenSimDocument>

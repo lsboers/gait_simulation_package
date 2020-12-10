@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MarkerSet name="staticP09">
+   <objects>
+      <Marker name="RM1D">
+         <body>toes_r</body>
+         <location>0.00681936 0.0109963 -0.0278487</location>
+         <fixed>false</fixed>
+      </Marker>
+      <Marker name="RM5D">
+         <body>toes_r</body>
+         <location>-0.0360916 0 0.0452183</location>
+         <fixed>false</fixed>
+      </Marker>
+      <Marker name="RM2B">
+         <body>calcn_r</body>
+         <location>0.123167 0.0411582 -0.012112</location>
+         <fixed>false</fixed>
+      </Marker>
+      <Marker name="LM1D">
+         <body>toes_l</body>
+         <location>0.00681936 0.0109963 0.0278487</location>
+         <fixed>false</fixed>
+      </Marker>
+      <Marker name="LM5D">
+         <body>toes_l</body>
+         <location>-0.0360916 0 -0.0452183</location>
+         <fixed>false</fixed>
+      </Marker>
+      <Marker name="LM2B">
+         <body>calcn_l</body>
+         <location>0.123167 0.0411582 0.012112</location>
+         <fixed>false</fixed>
+      </Marker>
+      <Marker name="RCAL">
+         <body>calcn_r</body>
+         <location>-0.0111553 0.02 0</location>
+         <fixed>true</fixed>
+      </Marker>
+      <Marker name="LCAL">
+         <body>calcn_l</body>
+         <location>-0.0111553 0.02 0</location>
+         <fixed>true</fixed>
+      </Marker>
+      <Marker name="RLMAL">
+         <body>tibia_r</body>
+         <location>-0.00817075 -0.408502 0.0542902</location>
+         <fixed>true</fixed>
+      </Marker>
+      <Marker name="LLMAL">
+         <body>tibia_l</body>
+         <location>-0.00817075 -0.408502 -0.0542902</location>
+         <fixed>true</fixed>
+      </Marker>
+      <Marker name="RMMAL">
+         <body>tibia_r</body>
+         <location>0.00884135 -0.3927 -0.0333514</location>
+         <fixed>true</fixed>
+      </Marker>
+      <Marker name="LMMAL">
+         <body>tibia_l</body>
+         <location>0.00884135 -0.3927 0.0333514</location>
+         <fixed>true</fixed>
+      </Marker>
+      <Marker name="RFLE">
+         <body>femur_r</body>
+         <location>0 -0.395961 0.0520455</location>
+         <fixed>true</fixed>
+      </Marker>
+      <Marker name="RFME">
+         <body>femur_r</body>
+         <location>0.000447072 -0.393705 -0.0521872</location>
+         <fixed>true</fixed>
+      </Marker>
+      <Marker name="LFME">
+         <body>femur_l</body>
+         <location>0.000447072 -0.393705 0.0521872</location>
+         <fixed>true</fixed>
+      </Marker>
+      <Marker name="LFLE">
+         <body>femur_l</body>
+         <location>0 -0.395961 -0.0520455</location>
+         <fixed>true</fixed>
+      </Marker>
+      <Marker name="RHFIB">
+         <body>tibia_r</body>
+         <location>-0.0024603 -0.0644868 0.0635701</location>
+         <fixed>false</fixed>
+      </Marker>
+      <Marker name="LHFIB">
+         <body>tibia_l</body>
+         <location>-0.0024603 -0.0644868 -0.0635701</location>
+         <fixed>false</fixed>
+      </Marker>
+      <Marker name="RPSIS">
+         <body>pelvis</body>
+         <location>-0.155963 0.0462669 0.0435927</location>
+         <fixed>true</fixed>
+      </Marker>
+      <Marker name="LPSIS">
+         <body>pelvis</body>
+         <location>-0.155963 0.0462669 -0.0435927</location>
+         <fixed>true</fixed>
+      </Marker>
+      <Marker name="RASIS">
+         <body>pelvis</body>
+         <location>0.0124779 0.0147738 0.121818</location>
+         <fixed>true</fixed>
+      </Marker>
+      <Marker name="LASIS">
+         <body>pelvis</body>
+         <location>0.0124779 0.0147738 -0.121818</location>
+         <fixed>true</fixed>
+      </Marker>
+      <Marker name="T10">
+         <body>torso</body>
+         <location>-0.0910071 0.151935 0</location>
+         <fixed>false</fixed>
+      </Marker>
+      <Marker name="T2">
+         <body>torso</body>
+         <location>-0.091318 0.361676 0</location>
+         <fixed>false</fixed>
+      </Marker>
+      <Marker name="IJ">
+         <body>torso</body>
+         <location>0.0351111 0.381049 0</location>
+         <fixed>false</fixed>
+      </Marker>
+      <Marker name="SA">
+         <body>torso</body>
+         <location>0.0663815 0.334692 0</location>
+         <fixed>false</fixed>
+      </Marker>
+      <Marker name="RACR">
+         <body>torso</body>
+         <location>-0.00683972 0.413517 0.134403</location>
+         <fixed>false</fixed>
+      </Marker>
+      <Marker name="LACR">
+         <body>torso</body>
+         <location>-0.00683972 0.413517 -0.134403</location>
+         <fixed>false</fixed>
+      </Marker>
+      <Marker name="RHLE">
+         <body>humerus_r</body>
+         <location>0.00832132 -0.279773 -0.0418442</location>
+         <fixed>true</fixed>
+      </Marker>
+      <Marker name="LHLE">
+         <body>humerus_l</body>
+         <location>0.00832132 -0.279773 0.0418442</location>
+         <fixed>true</fixed>
+      </Marker>
+      <Marker name="RUSP">
+         <body>ulna_r</body>
+         <location>-0.0189607 -0.245498 0.075386</location>
+         <fixed>true</fixed>
+      </Marker>
+      <Marker name="LUSP">
+         <body>ulna_l</body>
+         <location>-0.0189607 -0.245498 -0.075386</location>
+         <fixed>true</fixed>
+      </Marker>
+   </objects>
+</MarkerSet>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenSimDocument Version="30000">
+   <InverseKinematicsTool name="normalP07">
+      <model_file>../OsimModels/staticP07_fullbody7_SCALED.osim</model_file>
+      <IKTaskSet file="../IK/normalP07_taskSet.xml"/>
+      <marker_file>../ExpData/normalP07.trc</marker_file>
+      <coordinate_file>Unassigned</coordinate_file>
+      <time_range>1.5 2.31</time_range>
+      <report_errors>true</report_errors>
+      <output_motion_file>normalP07_ik.mot</output_motion_file>
+      <constraint_weight>Inf</constraint_weight>
+      <accuracy>1e-05</accuracy>
+   </InverseKinematicsTool>
+</OpenSimDocument>
